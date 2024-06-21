@@ -1,51 +1,52 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: url("1877031752.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('1877031752.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .player-container {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  width: 300px;
-  text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
 }
 
 .player-header {
-  background: #5151e5;
-  color: white;
-  padding: 10px;
+    background: #5151e5;
+    color: white;
+    padding: 10px;
 }
 
 .player-controls {
-  padding: 20px;
+    padding: 20px;
 }
 
 .play-btn {
-  background: #5151e5;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
+    background: #5151e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .play-btn:hover {
-  background: #4141c5;
+    background: #4141c5;
 }
 
 .play-btn:focus {
-  outline: none;
+    outline: none;
 }
 
 #volumeSlider {
-  width: 100%;
-  margin-top: 10px;
+    width: 100%;
+    margin-top: 10px;
 }
