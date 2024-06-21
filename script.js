@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
   playPauseBtn.addEventListener("click", () => {
     if (audioPlayer.paused) {
       audioPlayer.play();
-      playPauseBtn.textContent = "Pause";
+      playPauseBtn.textContent = "Laita vaikka päälle";
     } else {
       audioPlayer.pause();
-      playPauseBtn.textContent = "Play";
+      playPauseBtn.textContent = "Vituttaako?";
     }
   });
 
