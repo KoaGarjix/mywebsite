@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('/jarvihack.webp') no-repeat center center fixed;
+    background: url('jarvihack.webp') no-repeat center center fixed;
     background-size: cover;
 }
 
