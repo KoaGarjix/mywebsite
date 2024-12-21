@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const audioPlayer = document.getElementById("audioPlayer");
   const volumeSlider = document.getElementById("volumeSlider");
 
-  // Automatically play the audio when the page loads
+  // Ensure audio starts playing automatically
   audioPlayer.play();
 
-  // Adjust volume using the slider
+  // Update volume based on the slider's position
   volumeSlider.addEventListener("input", () => {
     audioPlayer.volume = volumeSlider.value;
   });
