@@ -7,17 +7,15 @@ body {
     font-family: Arial, sans-serif;
     background: url('abc.webp') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .player-container {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 300px;
     text-align: center;
-    animation: fadeIn 0.5s ease-in-out;
 }
 
 .player-header {
@@ -26,55 +24,4 @@ body {
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-}
-
-.player-controls {
-    padding: 20px;
-}
-
-.play-btn {
-    background: #5151e5;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s ease;
-}
-
-.play-btn:hover {
-    background: #4141c5;
-}
-
-.play-btn:focus {
-    outline: none;
-    box-shadow: 0 0 5px #5151e5;
-}
-
-#volumeSlider {
-    width: 100%;
-    margin-top: 10px;
-    appearance: none;
-    height: 5px;
-    background: #d3d3d3;
-    border-radius: 5px;
-    outline: none;
-    transition: background 0.3s;
-}
-
-#volumeSlider:hover {
-    background: #a3a3a3;
-}
-
-/* Optional: Smooth entry animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
 }
