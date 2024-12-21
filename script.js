@@ -1,18 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const audioPlayer = document.getElementById("audioPlayer");
-  const playPauseBtn = document.getElementById("playPauseBtn");
   const volumeSlider = document.getElementById("volumeSlider");
 
-  playPauseBtn.addEventListener("click", () => {
-    if (audioPlayer.paused) {
-      audioPlayer.play();
-      playPauseBtn.textContent = "2";
-    } else {
-      audioPlayer.pause();
-      playPauseBtn.textContent = "1";
-    }
-  });
+  // Automatically play the audio when the page loads
+  audioPlayer.play();
 
+  // Adjust volume using the slider
   volumeSlider.addEventListener("input", () => {
     audioPlayer.volume = volumeSlider.value;
   });
